@@ -13,29 +13,28 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          cursus eget nulla quis ullamcorper. Vestibulum risus enim, imperdiet
-          quis lacus quis, interdum condimentum dolor. Aliquam a tempor nunc, a
-          suscipit nisi. Maecenas sem justo, facilisis sed lacinia ut, convallis
-          a lacus. In ut tempus nunc, non lobortis tellus. Quisque lectus est,
-          interdum a ligula id, condimentum viverra lacus. Integer rhoncus
-          mattis velit ut condimentum. Donec eget dui nec lectus ornare tempor.
-          Nullam molestie, magna vitae ullamcorper sodales, lectus risus aliquet
-          tortor, vitae aliquam dolor arcu sed est. Aenean blandit sem ac urna
-          convallis, sed accumsan dui imperdiet.
+          Hello! I'm Sebastian Lorenzo Hernandez, a passionate Full Stack
+          Software Engineer with a diverse background in Front-End and Back-End
+          development, as well as Database Management. After serving in the Army
+          and spending 11 years in various industries, including engineering, I
+          pursued my dream of working in the tech industry. With the unwavering
+          support of my family, I embarked on this journey and honed my skills
+          in software engineering at MiVet, where I gained invaluable experience
+          developing web applications using React, JavaScript, .NET MVC, and
+          SQL.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          cursus eget nulla quis ullamcorper. Vestibulum risus enim, imperdiet
-          quis lacus quis, interdum condimentum dolor. Aliquam a tempor nunc, a
-          suscipit nisi. Maecenas sem justo, facilisis sed lacinia ut, convallis
-          a lacus. In ut tempus nunc, non lobortis tellus. Quisque lectus est,
-          interdum a ligula id, condimentum viverra lacus. Integer rhoncus
-          mattis velit ut condimentum. Donec eget dui nec lectus ornare tempor.
-          Nullam molestie, magna vitae ullamcorper sodales, lectus risus aliquet
-          tortor, vitae aliquam dolor arcu sed est. Aenean blandit sem ac urna
-          convallis, sed accumsan dui imperdiet.
+          My technical expertise includes Front-End technologies such as React,
+          JavaScript, HTML5, CSS3, Redux, and Bootstrap, as well as Middle-Tier
+          technologies like C#, .Net, .Net Core, and ASP.Net. I am also
+          proficient in Database Management with SQL, TSQL, and Microsoft SQL
+          Server Management Studio. My experience in the Army and the
+          engineering industry has taught me the importance of adaptability,
+          problem-solving, and collaboration, which I believe are essential for
+          success in the tech industry. I am excited to explore new
+          opportunities in software engineering and would love to connect with
+          you!
         </p>
       </div>
     </div>
