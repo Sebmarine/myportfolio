@@ -11,26 +11,32 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      link: "",
     },
     {
       id: 2,
       src: reactParallax,
+      link: "",
     },
     {
       id: 3,
       src: navbar,
+      link: "",
     },
     {
       id: 4,
       src: reactSmooth,
+      link: "",
     },
     {
       id: 5,
       src: installNode,
+      link: "",
     },
     {
       id: 6,
       src: reactWeather,
+      link: "",
     },
   ];
 
