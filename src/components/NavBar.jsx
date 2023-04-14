@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import AnimatedSebastian from "./AnimatedSebastian";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -38,9 +39,9 @@ const NavBar = () => {
           to="home"
           smooth
           duration={500}
-          className="text-5xl cursor-pointer font-signature ml-2"
+          className="text-5xl cursor-pointer ml-2"
         >
-          Sebastian
+          <AnimatedSebastian />
         </Link>
       </div>
 

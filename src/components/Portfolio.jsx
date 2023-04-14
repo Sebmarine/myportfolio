@@ -1,6 +1,6 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
+import cardSplosion from "../assets/portfolio/cardSplosion.gif";
+import findUR from "../assets/portfolio/findUR.gif";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
@@ -10,8 +10,8 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      link: "",
+      src: cardSplosion,
+      link: "https://github.com/Sebmarine/findur/blob/main/src/components/Cardsplosion.jsx",
     },
     {
       id: 2,
@@ -30,8 +30,8 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: installNode,
-      link: "",
+      src: findUR,
+      link: "https://github.com/Sebmarine/findur",
     },
     {
       id: 6,
@@ -54,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -65,7 +65,10 @@ const Portfolio = () => {
                 <button className="w-1/2 border border-gray-500 rounded-md px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="w-1/2 border border-cyan-500 rounded-md px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  onClick={() => window.open(link, "_blank")}
+                  className="w-1/2 border border-cyan-500 rounded-md px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
                 </button>
               </div>
