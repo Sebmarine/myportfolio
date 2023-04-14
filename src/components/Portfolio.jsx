@@ -1,10 +1,10 @@
 import React from "react";
 import cardSplosion from "../assets/portfolio/cardSplosion.gif";
 import findUR from "../assets/portfolio/findUR.gif";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import miVet from "../assets/portfolio/MiVet.gif";
+// import reactParallax from "../assets/portfolio/reactParallax.jpg";
+// import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+// import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -15,28 +15,13 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
-      link: "",
+      src: miVet,
+      link: "https://github.com/Sebmarine/MiVet",
     },
     {
       id: 3,
-      src: navbar,
-      link: "",
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-      link: "",
-    },
-    {
-      id: 5,
       src: findUR,
       link: "https://github.com/Sebmarine/findur",
-    },
-    {
-      id: 6,
-      src: reactWeather,
-      link: "",
     },
   ];
 
@@ -62,9 +47,9 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 border border-gray-500 rounded-md px-6 py-3 m-4 duration-200 hover:scale-105">
+                {/* <button className="w-1/2 border border-gray-500 rounded-md px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
-                </button>
+                </button> */}
                 <button
                   onClick={() => window.open(link, "_blank")}
                   className="w-1/2 border border-cyan-500 rounded-md px-6 py-3 m-4 duration-200 hover:scale-105"
